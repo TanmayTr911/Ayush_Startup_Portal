@@ -3,7 +3,7 @@ import { Outlet, Link, useNavigate } from "react-router-dom";
 const logo = require("../../images/ministrylogo.png");
 
 const Navbar = () => {
-  const [serachTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
   const logostyles = {
     height: "7vh",
@@ -63,8 +63,11 @@ const Navbar = () => {
   };
 
   const profileSearch = () => {
-    if (serachTerm === "Tech Veda") {
+    if (searchTerm === "Tech Veda") {
       navigate("startupProfile");
+    }
+    if (searchTerm === "investor") {
+      navigate("investorProfile");
     }
   };
 
@@ -152,7 +155,7 @@ const Navbar = () => {
                 placeholder="Search For Startups"
                 aria-label="Search"
                 style={inpstyle}
-                value={serachTerm}
+                value={searchTerm}
                 onChange={(e) => {
                   setSearchTerm(e.target.value);
                 }}

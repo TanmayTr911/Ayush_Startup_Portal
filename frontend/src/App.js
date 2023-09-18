@@ -4,7 +4,8 @@ import InvestorDetails from "./components/invetsorRegForm";
 import LoginPage from "./components/loginPage";
 import HomePage from "./components/homePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Profile from "./components/startupProfile";
+import StartupProfile from "./components/startupProfile";
+import { InvestorProfile } from "./components/investorProfile";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/startupProfile",
-    element: <Profile />,
+    element: <StartupProfile />,
+  },
+  {
+    path: "/investorProfile",
+    element: <InvestorProfile />,
   },
 ]);
 

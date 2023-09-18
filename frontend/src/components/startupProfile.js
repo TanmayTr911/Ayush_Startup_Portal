@@ -9,7 +9,7 @@ import graph from "../images/SIH.png";
 import headcount from "../images/headcount.png";
 import "../styles/profile.css";
 import Navbar from "./HomePageComponents/navbar";
-const Profile = () => {
+const StartupProfile = () => {
   return (
     <>
       <Navbar></Navbar>
@@ -103,4 +103,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default StartupProfile;
