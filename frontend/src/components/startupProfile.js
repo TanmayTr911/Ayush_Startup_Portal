@@ -1,5 +1,5 @@
 import React from "react";
-import { MdVerifiedUser } from "react-icons/md";
+import { MdVerified, MdEdit } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
 import { BiLink } from "react-icons/bi";
 import { AiFillPhone } from "react-icons/ai";
@@ -21,7 +21,7 @@ const StartupProfile = () => {
               <p className="startupname">
                 Tech Veda{" "}
                 <i>
-                  <MdVerifiedUser />
+                  <MdVerified />{" "}
                 </i>
               </p>
               <p className="tagline">

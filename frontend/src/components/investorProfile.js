@@ -96,15 +96,25 @@ export const InvestorProfile = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Mark</td>
+                <tr
+                  style={{
+                    backgroundColor: "#e6fff9",
+
+                    // opacity: "10%",
+                  }}
+                >
+                  <td style={{ color: "black" }}>Mark</td>
                   <td>Otto</td>
                 </tr>
                 <tr>
                   <td>Jacob</td>
                   <td>Thornton</td>
                 </tr>
-                <tr>
+                <tr
+                  style={{
+                    backgroundColor: "#e6fff9",
+                  }}
+                >
                   <td>Larry</td>
                   <td>the Bird</td>
                 </tr>
@@ -122,7 +132,11 @@ export const InvestorProfile = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr
+                  style={{
+                    backgroundColor: "#e6fff9",
+                  }}
+                >
                   <td>Mark</td>
                   <td>Otto</td>
                 </tr>
@@ -130,7 +144,11 @@ export const InvestorProfile = () => {
                   <td>Jacob</td>
                   <td>Thornton</td>
                 </tr>
-                <tr>
+                <tr
+                  style={{
+                    backgroundColor: "#e6fff9",
+                  }}
+                >
                   <td>Larry</td>
                   <td>the Bird</td>
                 </tr>
@@ -141,8 +159,90 @@ export const InvestorProfile = () => {
           <div className="refernces">
             <h1 className="rightHead">References/Testimonials</h1>
 
-            <div className="card">
-              {/* <img className="card-img-top" src=".../100px180/" alt="Card image cap"/> */}
+            <div
+              className="testimonial"
+              style={{ display: "flex", gap: 20 + "px" }}
+            >
+              <div
+                class="card"
+                style={{
+                  width: 20 + "rem",
+                  height: 15 + "rem",
+                  borderRadius: 1 + "vh",
+                }}
+              >
+                <div class="card-body">
+                  <h5
+                    class="card-title"
+                    style={{ fontSize: "1.5em", fontWeight: "bolder" }}
+                  >
+                    Card title
+                  </h5>
+                  <p
+                    class="card-text"
+                    style={{
+                      paddingTop: 1.5 + "rem",
+                      paddingBottom: 2 + "rem",
+                    }}
+                  >
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. the bulk of the card's
+                    content
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style={{
+                  width: 20 + "rem",
+                  height: 15 + "rem",
+                  borderRadius: 1 + "vh",
+                }}
+              >
+                <div class="card-body">
+                  <h5
+                    class="card-title"
+                    style={{ fontSize: "1.5em", fontWeight: "bolder" }}
+                  >
+                    Card title
+                  </h5>
+                  <p
+                    class="card-text"
+                    style={{ paddingTop: 2 + "rem", paddingBottom: 2 + "rem" }}
+                  >
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. the bulk of the card's
+                    content
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style={{
+                  width: 20 + "rem",
+                  height: 15 + "rem",
+                  borderRadius: 1 + "vh",
+                }}
+              >
+                <div class="card-body">
+                  <h5
+                    class="card-title"
+                    style={{ fontSize: "1.5em", fontWeight: "bolder" }}
+                  >
+                    Card title
+                  </h5>
+                  <p
+                    class="card-text"
+                    style={{ paddingTop: 2 + "rem", paddingBottom: 2 + "rem" }}
+                  >
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. the bulk of the card's
+                    content
+                  </p>
+                </div>
+              </div>
+              {/* <div className="card">
+              <img className="card-img-top" src=".../100px180/" alt="Card image cap"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -150,28 +250,8 @@ export const InvestorProfile = () => {
                   the bulk of the card's content.
                 </p>
               </div>
-            </div>
-
-            <div className="card">
-              {/* <img className="card-img-top" src=".../100px180/" alt="Card image cap"/> */}
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              {/* <img className="card-img-top" src=".../100px180/" alt="Card image cap"/> */}
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+            </div> */}
+                        
             </div>
           </div>
         </div>
