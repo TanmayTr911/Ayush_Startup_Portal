@@ -32,6 +32,8 @@ const Desc = styled.p`
 const SocialContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  left:18%;
 `;
 
 const SocialIcon = styled.div`
@@ -59,6 +61,13 @@ const Center = styled.div`
 
 const Title = styled.h3`
   margin-bottom: 30px;
+  margin-left: 80px;
+  text-align: left;
+`;
+
+const TitleContact = styled.h3`
+  margin-bottom: 30px;
+  text-align: left;
 `;
 
 const List = styled.ul`
@@ -75,7 +84,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   &:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -123,7 +132,7 @@ const Footer = () => {
           <ListItem>FAQs</ListItem>
         </List>
         <div
-          style={{ fontSize: "25px", textAlign: "center", margin: "20px 20px" }}
+          style={{ fontSize: "25px", textAlign: "left", margin: "20px 80px" }}
         >
           Follow us on
         </div>
@@ -143,7 +152,7 @@ const Footer = () => {
         </SocialContainer>
       </Center>
       <Right>
-        <Title>Contact</Title>
+        <TitleContact>Contact</TitleContact>
         <ContactItem>
           <Room style={{ marginRight: "10px" }} /> Buildings Alyssa, Outer Ring
           Road, Bengaluru
