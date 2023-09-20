@@ -6,6 +6,7 @@ import HomePage from "./components/homePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import StartupProfile from "./components/startupProfile";
 import { InvestorProfile } from "./components/investorProfile";
+import Opportunities from "./components/Opportunity/Opportunity";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/investorProfile",
     element: <InvestorProfile />,
+  },
+  {
+    path: "/opportunities",
+    element: <Opportunities />,
   },
 ]);
 

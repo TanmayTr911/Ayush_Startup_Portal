@@ -11,10 +11,8 @@ const logo = require("../../images/ministrylogo.png");
 const Container = styled.div`
   display: flex;
   background-color: #009470;
-  padding: 20px 50px 0px 70px;
+  padding: 50px 70px;
   color: white;
-  font-size: 1.3em;
-  border-radius: 2vh;
 `;
 
 const Left = styled.div`
@@ -32,8 +30,6 @@ const Desc = styled.p`
 const SocialContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  left:18%;
 `;
 
 const SocialIcon = styled.div`
@@ -61,13 +57,6 @@ const Center = styled.div`
 
 const Title = styled.h3`
   margin-bottom: 30px;
-  margin-left: 80px;
-  text-align: left;
-`;
-
-const TitleContact = styled.h3`
-  margin-bottom: 30px;
-  text-align: left;
 `;
 
 const List = styled.ul`
@@ -84,7 +73,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   &:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -132,7 +121,7 @@ const Footer = () => {
           <ListItem>FAQs</ListItem>
         </List>
         <div
-          style={{ fontSize: "25px", textAlign: "left", margin: "20px 80px" }}
+          style={{ fontSize: "25px", textAlign: "center", margin: "20px 30px" }}
         >
           Follow us on
         </div>
@@ -152,7 +141,7 @@ const Footer = () => {
         </SocialContainer>
       </Center>
       <Right>
-        <TitleContact>Contact</TitleContact>
+        <Title>Contact</Title>
         <ContactItem>
           <Room style={{ marginRight: "10px" }} /> Buildings Alyssa, Outer Ring
           Road, Bengaluru
