@@ -66,7 +66,7 @@ const List = styled.ul`
   display: flex;
   //flex-wrap: wrap;
   flex-direction: column;
-  text-align: center;
+  // text-align: left;
   align-items: center;
 `;
 

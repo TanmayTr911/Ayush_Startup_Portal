@@ -133,7 +133,7 @@ const Navbar = () => {
                   href="/opportunities"
                   style={navtabsStyles}
                 >
-                  Oppotunities
+                  Opportunities
                 </a>
               </li>
 

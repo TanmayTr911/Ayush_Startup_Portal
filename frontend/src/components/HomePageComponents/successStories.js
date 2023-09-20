@@ -7,6 +7,7 @@ const SuccessStories = () => {
     width: "90vw",
     marginBottom: "10vh",
     border: "none",
+    cursor: "pointer",
   };
   return (
     <div>
