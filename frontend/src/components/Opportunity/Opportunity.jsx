@@ -1,7 +1,8 @@
 import "./Opportunity.scss";
 import { useState } from "react";
 import AddOpportunity from "../addOpportunity/AddOpportunity";
-import addOpportunity from "../addOpportunity/AddOpportunity";
+// import {  } from "react-icons/im";
+import { BsFillPersonPlusFill } from "react-icons/bs"
 import Navbar from "../HomePageComponents/navbar";
 import Footer from "../HomePageComponents/Footer";
 const img = require("../../images/startuplogo.png");
@@ -16,9 +17,11 @@ const Opportunity = () => {
   return (
     <div>
       <Navbar></Navbar>
+      <div style={{backgroundColor:"#c7f2a433"}}>
       <button className="buttonn" onClick={handleClick}>
-        Add Opportunity
+        Add Opportunity <BsFillPersonPlusFill style={{margin:"2px"}}></BsFillPersonPlusFill>
       </button>
+      </div>
       {openupdate && <AddOpportunity setOpenupdate={setOpenupdate} />}
       <div className="post">
         <div className="container">
