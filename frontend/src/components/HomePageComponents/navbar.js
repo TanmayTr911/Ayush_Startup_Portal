@@ -59,14 +59,14 @@ const Navbar = () => {
   };
 
   const signinform = () => {
-    navigate("login");
+    navigate("../login");
   };
 
   const profileSearch = () => {
     if (searchTerm === "investor") {
-      navigate("investorProfile");
+      navigate("../investorProfile");
     } else {
-      navigate("startupProfile");
+      navigate("../startupProfile");
     }
   };
 
