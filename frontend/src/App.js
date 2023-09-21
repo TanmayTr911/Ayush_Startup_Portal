@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import StartupProfile from "./components/startupProfile";
 import { InvestorProfile } from "./components/investorProfile";
 import Opportunities from "./components/Opportunity/Opportunity";
+import { Mentor } from "./components/mentorship/mentorship";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/opportunities",
     element: <Opportunities />,
+  },
+  {
+    path: "/mentorship",
+    element: <Mentor />,
   },
 ]);
 

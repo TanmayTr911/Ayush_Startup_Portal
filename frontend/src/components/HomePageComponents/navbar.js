@@ -63,11 +63,10 @@ const Navbar = () => {
   };
 
   const profileSearch = () => {
-    if (searchTerm === "Tech Veda") {
-      navigate("startupProfile");
-    }
     if (searchTerm === "investor") {
       navigate("investorProfile");
+    } else {
+      navigate("startupProfile");
     }
   };
 
@@ -133,7 +132,7 @@ const Navbar = () => {
                   href="/opportunities"
                   style={navtabsStyles}
                 >
-                  Opportunities
+                  Oppotunities
                 </a>
               </li>
 
