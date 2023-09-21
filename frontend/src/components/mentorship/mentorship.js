@@ -13,7 +13,7 @@ export const Mentor = () => {
     <>
       <Navbar></Navbar>
       <div className="blogs">
-        <div className="card22">
+        <div className="card221">
           <h1 className="Title">
             How to begin your journey as an AYUSH based startup?
           </h1>

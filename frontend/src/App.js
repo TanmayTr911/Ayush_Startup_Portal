@@ -8,6 +8,9 @@ import StartupProfile from "./components/startupProfile";
 import { InvestorProfile } from "./components/investorProfile";
 import Opportunities from "./components/Opportunity/Opportunity";
 import { Mentor } from "./components/mentorship/mentorship";
+import Events from "./components/events/events";
+import SuccessStories from "./components/HomePageComponents/successStories";
+import Navbar from "./components/HomePageComponents/navbar";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +44,19 @@ const router = createBrowserRouter([
   {
     path: "/mentorship",
     element: <Mentor />,
+  },
+  {
+    path: "/events",
+    element: <Events />,
+  },
+  {
+    path: "/successStories",
+    element: (
+      <>
+        <Navbar></Navbar>
+        <SuccessStories />
+      </>
+    ),
   },
 ]);
 

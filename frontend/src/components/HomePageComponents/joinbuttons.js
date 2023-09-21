@@ -34,13 +34,14 @@ const JoinCards = () => {
                 marginTop: "0%",
                 marginLeft: "10%",
                 marginRight: "5%",
-                height: "43vh",
+                height: "40vh",
                 padding: "5%",
                 borderRadius: "20px",
                 background: "#009470",
                 color: "white",
                 border: "none",
                 opacity: "80%",
+                width: "40vw",
                 // paddingBottom: "20vh",
               }}
             >
@@ -70,13 +71,14 @@ const JoinCards = () => {
                 marginTop: "0%",
                 marginRight: "10%",
                 marginLeft: "5%",
-                height: "43vh",
+                height: "40vh",
                 padding: "5%",
                 borderRadius: "20px",
                 background: "#009470",
                 color: "white",
                 border: "none",
                 opacity: "80%",
+                width: "40vw",
               }}
             >
               <div class="card-body">

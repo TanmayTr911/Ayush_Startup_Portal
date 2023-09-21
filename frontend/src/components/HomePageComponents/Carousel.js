@@ -9,7 +9,7 @@ const Carousel = () => {
   //   navigate("explore");
   // };
   const handleEventClick = () => {
-    navigate("event");
+    navigate("events");
   };
   const handleExploreClick = () => {
     navigate("explore");
