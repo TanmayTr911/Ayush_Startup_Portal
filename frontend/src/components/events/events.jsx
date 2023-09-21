@@ -2,7 +2,7 @@ import "./events.scss";
 
 import Navbar from "../HomePageComponents/navbar";
 import Footer from "../HomePageComponents/Footer";
-import yogadayimg from "./yogaday.avif"
+import yogadayimg from "./event1.png"
 import eventimg2 from "./event2.jpeg"
 import eventimg3 from "./event3.jpeg"
 import eventimg4 from "./event4.jpeg"
