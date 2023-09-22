@@ -19,7 +19,7 @@ const Carousel = () => {
       id="carouselExampleAutoplaying"
       class="carousel slide"
       data-bs-ride="carousel"
-      data-interval="100"
+      // data-interval="100"
     >
       <div class="carousel-inner">
         <div class="carousel-item active" style={{ height: "100%" }}>

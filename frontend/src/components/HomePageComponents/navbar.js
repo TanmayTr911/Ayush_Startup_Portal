@@ -105,11 +105,6 @@ const Navbar = () => {
                   Home
                 </a>
               </li> */}
-              <li className="nav-item">
-                <a className="nav-link" href="/explore" style={navtabsStyles}>
-                  Explore
-                </a>
-              </li>
 
               <li className="nav-item">
                 <a
@@ -122,7 +117,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/events" style={navtabsStyles}>
-                  Events
+                  Explore
                 </a>
               </li>
 
@@ -132,7 +127,7 @@ const Navbar = () => {
                   href="/opportunities"
                   style={navtabsStyles}
                 >
-                  Oppotunities
+                  Opportunities
                 </a>
               </li>
 
@@ -144,6 +139,11 @@ const Navbar = () => {
                   onclick={successLink}
                 >
                   Success Stories
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/discuss" style={navtabsStyles}>
+                  Discuss
                 </a>
               </li>
             </ul>
