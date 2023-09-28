@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Outlet, Link, useNavigate } from "react-router-dom";
+import "../../App.css";
 const logo = require("../../images/ministrylogo.png");
 
 const Navbar = () => {
@@ -71,9 +72,9 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="navbarCSS">
       <nav
-        className="navbar navbar-expand-lg "
+        className="navbar navbar-expand-lg fixed-top"
         style={{
           backgroundColor: "white",
           padding: "0",

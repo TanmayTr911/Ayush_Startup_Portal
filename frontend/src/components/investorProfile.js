@@ -20,7 +20,7 @@ export const InvestorProfile = () => {
               <div className="invtype">
                 <p className="invname">
                   Investor Name{" "}
-                  <i>
+                  <i className="invIcon">
                     <MdVerified />
                   </i>
                 </p>
@@ -49,13 +49,13 @@ export const InvestorProfile = () => {
               </i>
               investor@gmail.com
             </p>
-            <p className="websitelink">
+            <p className="invwebsitelink">
               <i>
                 <GrLinkedin />
               </i>{" "}
               LinkedIn profile
             </p>
-            <p className="websitelink">
+            <p className="invwebsitelink">
               <i>
                 <RiTwitterXLine />
               </i>{" "}
@@ -84,9 +84,9 @@ export const InvestorProfile = () => {
           </p>
         </div>
 
-        <div className="right">
+        <div className="invright">
           <div className="currInt">
-            <h1 className="rightHead">Portfolio Companies</h1>
+            <h1 className="invrightHead">Portfolio Companies</h1>
 
             <table className="table table-striped table-bordered">
               <thead>
@@ -122,7 +122,7 @@ export const InvestorProfile = () => {
             </table>
           </div>
           <div className="prevInt">
-            <h1 className="rightHead">Previous Investments</h1>
+            <h1 className="invrightHead">Previous Investments</h1>
 
             <table className="table table-striped table-bordered">
               <thead>
@@ -157,7 +157,7 @@ export const InvestorProfile = () => {
           </div>
 
           <div className="refernces">
-            <h1 className="rightHead">References/Testimonials</h1>
+            <h1 className="invrightHead">References/Testimonials</h1>
 
             <div
               className="testimonial"

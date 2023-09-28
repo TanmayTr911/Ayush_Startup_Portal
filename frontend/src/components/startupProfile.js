@@ -20,42 +20,43 @@ const StartupProfile = () => {
             <div>
               <p className="startupname">
                 Tech Veda{" "}
-                <i>
+                <i className="startupIcon">
                   <MdVerified />{" "}
                 </i>
               </p>
               <p className="tagline">
                 Elevating Health and Harmony through Ayush Wisdom: Your Path to
                 Holistic Well-being.
+                </p>
                 <div className="interested">
                   I am interested!
                   <button className="intbtn">
-                    <i>
+                    <i className="startupIcon">
                       <FaThumbsUp />
                     </i>
                   </button>
                 </div>
-              </p>
+              {/* </p> */}
             </div>
           </div>
           <div className="startupinfo">
             <p>
-              <i>
+              <i className="startupIcon">
                 <ImLocation />
-              </i>{" "}
+              </i>
               123 Ayush Lane Delhi, India
             </p>
             <p>
-              <i>
+              <i className="startupIcon">
                 <AiFillPhone />
-              </i>{" "}
+              </i>
               99665848959
             </p>
 
             <p className="websitelink">
-              <i>
+              <i className="startupIcon">
                 <BiLink />
-              </i>{" "}
+              </i>
               Visit Company's website
             </p>
           </div>
