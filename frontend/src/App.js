@@ -1,3 +1,4 @@
+import chatbot from "./images/chatbot.gif";
 import React from "react";
 import RegForm from "./components/startupRegForm";
 import InvestorDetails from "./components/invetsorRegForm";
@@ -69,6 +70,17 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <img
+        src={chatbot}
+        style={{
+          right: "2vw",
+          bottom: "5vh",
+          zIndex: "20",
+          height: "180px",
+          position: "fixed",
+          cursor: "pointer",
+        }}
+      ></img>
     </>
   );
 }
