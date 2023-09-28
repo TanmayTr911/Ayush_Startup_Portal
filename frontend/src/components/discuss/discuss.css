@@ -9,16 +9,6 @@
 h1{
    text-align:  center;
 }
-.discussChannel{
-    margin-left: 30%;
-    height: 100vh;
-    background-color: #c7f2a433;
-    width: 75vw;
-    padding: 1rem;
-
-}
-/*
-
 .discussChannel1{
     margin-left: 27%;
     height: 100vh;
@@ -69,4 +59,4 @@ h1{
     padding-right: 2rem;
    
 }
-*/
+

@@ -18,7 +18,7 @@ export const Discuss = () => {
           <SideBar setType={setType}></SideBar>
           {/* <p>{type}</p> */}
 
-          {/* {type === 1 && (
+          {type === 1 && (
             <div className="discussChannel1">
               {" "}
               <Announcement></Announcement>
@@ -45,17 +45,9 @@ export const Discuss = () => {
           {type === 5 && (
             <div className="discussChannel5">
               {" "}
-              <Investors></Investors> */}
-          {/* </div>
-          )} */}
-
-          <div className="discussChannel">
-            {type === 1 && <Announcement></Announcement>}
-            {type === 2 && <General></General>}
-            {type === 3 && <Spotlight></Spotlight>}
-            {type === 4 && <Investment></Investment>}
-            {type === 5 && <Investors></Investors>}
-          </div>
+              <Investors></Investors> */
+            </div>
+          )}
         </div>
       </div>
     </>
