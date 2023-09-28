@@ -9,7 +9,7 @@ h1{
   align-items: center;
 }
 
-i{
+.sidebarIcon{
   font-size: 3rem;
   cursor: pointer;
   color: #008C6A;

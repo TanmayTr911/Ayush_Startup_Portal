@@ -5,12 +5,26 @@
     display: flex;
     /* flex-direction: column; */
 }
+
+h1{
+   text-align:  center;
+}
+.discussChannel{
+    margin-left: 30%;
+    height: 100vh;
+    background-color: #c7f2a433;
+    width: 75vw;
+    padding: 1rem;
+
+}
+/*
+
 .discussChannel1{
     margin-left: 27%;
     height: 100vh;
     background-color: #e6f2ff;
     width: 75vw;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
    
@@ -20,7 +34,7 @@
     height: 100vh;
     background-color: #c7f2a433;
     width: 75vw;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
    
@@ -30,7 +44,7 @@
     height: 100vh;
     background-color: #fafae3;
     width: 75vw;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
    
@@ -40,7 +54,7 @@
     height: 100vh;
     background-color: #f9c3c333;
     width: 75vw;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
    
@@ -50,11 +64,9 @@
     height: 100vh;
     background-color: #a58be733;
     width: 75vw;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
    
 }
-h1{
-   text-align:  center;
-}
+*/

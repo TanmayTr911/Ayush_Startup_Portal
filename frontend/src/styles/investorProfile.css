@@ -22,7 +22,7 @@
     font-family: "Poppins";
 }
 
-i {
+.invIcon {
     color: #009470;
 }
 
@@ -92,21 +92,21 @@ i {
     margin: 0;
 }
 
-.companyinfo {
+/* .companyinfo {
     border-bottom: 0.4px solid #a2a2a2;
-}
+} */
 
 /* .companyinfo>p{
     margin-top: 0;
 } */
-.websitelink {
+.invwebsitelink {
     cursor: pointer;
     transition: ease 0.45s;
     /* padding-bottom: 1rem; */
     /* border-bottom: 0.4px solid #a2a2a2; */
 }
 
-.websitelink:hover {
+.invwebsitelink:hover {
     color: #009470;
 
     font-weight: bold;
@@ -120,7 +120,7 @@ i {
     background-color: rgb(4, 84, 4);
 }
 
-.right {
+.invright {
     display: flex;
     flex-direction: column;
     font-family: "Poppins";;
@@ -132,13 +132,13 @@ i {
     box-sizing: border-box;
 }
 
-.rightHead {
+.invrightHead {
     color: #009470;
     font-family: "Poppins";
     font-size: 1.67rem;
 }
 
-.right>div {
+.invright>div {
     margin: 1rem;
 }
 

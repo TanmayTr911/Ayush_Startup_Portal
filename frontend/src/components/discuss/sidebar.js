@@ -32,7 +32,7 @@ export const SideBar = (props) => {
       <div className="discussHead">
         <h1>Discussion Forum</h1>
         <h1>
-          <i>
+          <i className="sidebarIcon">
             <AiFillPlusCircle />
           </i>
         </h1>

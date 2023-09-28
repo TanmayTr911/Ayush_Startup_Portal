@@ -24,13 +24,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-i {
-    color: #009470;
+.startupIcon {
+    color: #008C6A;
+    /* font-size: 2rem; */
 
 }
 
 .interested {
-    background-color: #009470;
+    background-color: #008C6A;
     opacity: 80%;
     margin: 1rem;
     color: white;
@@ -45,7 +46,9 @@ i {
     background-color: #009470;
     opacity: 100%;
 } */
-
+.startupinfo{
+    padding-top: 1rem;
+}
 .intbtn {
     background-color: white;
     /* padding: 0.5rem; */
@@ -85,8 +88,8 @@ i {
 .tagline {
     font-size: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 0.4px solid #a2a2a2;
-    color:#009470;
+    /* border-bottom: 0.4px solid #a2a2a2; */
+    color:#055f48;
     font-weight: 500;
     text-align: center;
 }
@@ -99,13 +102,13 @@ i {
 }
 
 .websitelink:hover {
-    color: #009470;
+    color: #008C6A;
 
     font-weight: bold;
 }
 
 .startupresume {
-    background-color: #009470;
+    background-color: #008C6A;
     opacity: 80%;
     /* margin: 1rem; */
     padding:2vh;
